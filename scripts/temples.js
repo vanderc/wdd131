@@ -2,12 +2,12 @@ let d = new Date();
 document.getElementById("currentYear").innerHTML = `&copy;${d.getFullYear()}`;
 document.querySelector('#lastModified').textContent = `Last Modification: ${document.lastModified}`;
 
-const hambutton = document.querySelector('#hambutton');
+const button = document.querySelector('#button');
 
-hambutton.addEventListener('click', () => {
+button.addEventListener('click', () => {
     document.querySelector('h1').classList.toggle('show');
     document.querySelector('#menu').classList.toggle('show');
-    hambutton.classList.toggle('show');
+    button.classList.toggle('show');
 });
 
 function togglActive(element){

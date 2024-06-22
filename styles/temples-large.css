@@ -1,11 +1,15 @@
 @media screen and (min-width: 500px) {
     .main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .menu {
         display: flex;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0;
+        display: block;
     }
 
     .grid img {

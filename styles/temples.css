@@ -28,7 +28,7 @@
     padding: 1.6rem;
   }
 
-  #hambutton {
+  #button {
     display: block;
     font-size: 2.5rem;
     background-color: var(--blue);
@@ -42,11 +42,11 @@
     right: 1rem;
   }
 
-  #hambutton::before {
-    content: "#";
+  #button::before {
+    content: "≡";
   }
 
-  #hambutton.show::before {
+  #button.show::before {
     content: "X";
   }
 
@@ -67,7 +67,7 @@
     color: var(--red);
   }
 
-  nav a:hover~#menu~#hambutton {
+  nav a:hover~#menu~#button {
     background-color: var(--red);
     font-weight: 400;
   }
@@ -101,7 +101,7 @@
     margin-bottom: 1.5rem;
   }
 
-  .res-grid {
+  .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
