@@ -39,7 +39,6 @@
     }
 
     .weather h2::after {
-        content: "";
         position: absolute;
         right: 3rem;
         top: 1.25rem;
