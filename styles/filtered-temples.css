@@ -141,7 +141,6 @@
     font-weight: 400;
     font-size: smaller;
     font-variant: small-caps;
-    counter-reset: var(--blue);
   }
 
   .navigation {
