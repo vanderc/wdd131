@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const showMenu = document.getElementById('show-menu');
-    const hideMenu = document.getElementById('hide-menu');
-    const linkFlex = document.querySelector('.link-flex');
+    const showMenu = document.getElementById('showMenu');
+    const hideMenu = document.getElementById('hideMenu');
+    const linkFlex = document.querySelector('.linkFlex');
 
     showMenu.addEventListener('click', function() {
         linkFlex.classList.add('active');
