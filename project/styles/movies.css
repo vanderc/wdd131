@@ -10,11 +10,11 @@
 main h1 {
     text-align: center;
     color: var(--primary-color);
-    margin-top: -30px;
+    margin-top: -25px;
 }
 
 h2 {
-    color: #47564c;
+    color: darkslategray;
 }
 
 .factHolder {
@@ -38,5 +38,5 @@ hr {
 
 p {
     padding-top: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
