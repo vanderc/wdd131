@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <meta name="author" content="Chris Vandermark">
+    <meta name="description" content="This is a page about us.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/indexx.css">
+    <link rel="stylesheet" href="styles/about-us.css">
+    <script src="scripts/about-us.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="topFlex">
+            <a>Movies</a>
+            <div id="showMenu"></div>
+
+            <div class="linkFlex">
+                <div id="hideMenu"></div>
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="about-us.html">Sign up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="about">
+            <h1>About Us</h1>
+            <br>
+            <p> I enjoy watching movies in my spare time. I like to watch most genres of movies and this is how I am able to share my hobby with others.</p>
+            <br>
+
+            <div class="formParent">
+                <form action="thanks.html" method="get" class="forms">
+                    <fieldset>
+                        <legend>Join Newsletter To Receive Updates</legend>
+
+                        <label>First Name <input type="text" name="firstName" required></label>
+                        <label>Last Name <input type="text" name="lastName" required></label>
+                        <label>Email <input type="email" name="email" required placeholder="email@gmail.com"></label>
+                        <label>Phone Number <input type="number" name="phone" placeholder="123-456-7890"></label>
+                        <label>Movie Request <input type="text" name="request"></label>
+                    </fieldset>
+
+                    <input type="submit" value="Join">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p><span id="currentYear"></span>Chris Vandermark</p>
+        <p class="smaller" id="lastModified">Last Modification: 01/01/1970 12:00:00</p>
+    </footer>
+</body>
+</html>

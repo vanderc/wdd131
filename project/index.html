@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review | Home</title>
+    <meta name="author" content="Chris Vandermark">
+    <meta name="description" content="Movie Review Home page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/indexx.css">
+    <script src="scripts/index.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <div class="topFlex">
+            <a>Movies</a>
+            <div id="showMenu"></div>
+
+            <div class="linkFlex">
+                <div id="hideMenu"></div>
+                <a href="index.html">Home</a>
+                <a href="movies.html">Movies</a>
+                <a href="about-us.html">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="photoContainer">
+            <div class="slides">
+                <picture>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/3421528F5E3679CEA7D89FE51BE6DE6904289364AD148688A2E236A340144BF6/scale?width=1200&aspectRatio=1.78&format=webp" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Iron Man 1</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C6AB0EDCE8F41882EBBB782B76DD4F05D7E360D7C3F23B4F6D02C24699B26105/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Pirates of The Carribean</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/9A119203B33B5A3989A1CFAF54B31035FC2651268EEC1D1C6150B7C858581783/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Jungle Cruise</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://i0.wp.com/farm3.static.flickr.com/2727/4346332959_00655bebda_b.jpg" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Clash of the</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://www.paramountmovies.com/uploads/movies/null/if-pm-share-1200x630-c.jpg" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">IF</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://i.ytimg.com/vi/edyAQfczCJI/maxresdefault.jpg" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Ghostbusters Frozen Empire</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D7862D2C9B09065E2BD4A9BEBC6BA0FEA0A1B075E500A052C2256CC83EB59CA4/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">Treasure Planet</div>
+            </div>
+
+            <div class="slides">
+                <picture>
+                    <img src="https://m.media-amazon.com/images/S/pv-target-images/773f2f6b31d6bcda303bffae22cc211c81cb94ec618280fc7cab1936bcc567bb._UR1920,1080_SX720_FMpng_.png" alt="iron-man" width="375" height="250" loading="lazy">
+                </picture>
+                <div class="caption">My Spy</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </main>
+    <footer>
+        <p><span id="currentYear"></span>Chris Vandermark</p>
+        <p class="smaller" id="lastModified">Last Modification: 01/01/1970 12:00:00</p>
+    </footer>
+</body>
+</html>

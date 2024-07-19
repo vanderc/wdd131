@@ -1,0 +1,9 @@
+main p {
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    height: 45vh;
+    margin-top: 50px;
+}
