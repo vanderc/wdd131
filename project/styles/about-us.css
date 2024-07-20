@@ -75,6 +75,7 @@ input[type="submit"] {
     width: 100%;
     padding: .5rem;
     margin-top: 30px;
+    color: black;
 }
 
 input[type="submit"]:hover {
